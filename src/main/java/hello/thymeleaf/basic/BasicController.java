@@ -55,11 +55,6 @@ public class BasicController {
         return "basic/basic-objects";
     }
 
-    @GetMapping("/test")
-    public String test() {
-        return "test";
-    }
-
     @Component("helloBean")
     static class HelloBean {
         public String hello(String data) {
